@@ -7,7 +7,7 @@ One of the major goal in stochastic computing is sampling, i.e. given a density 
 \end{equation}
 for some density $\rho(x)$. 
 
-In this work, we propose a transportation method to do such sampling. That is, with the information that it's difficult to sample from the distribution $\nu(dx)$, we want to find a transport map $T_*:\Omega \rightarrow \Omega$ such that the following equation holds:
+In this work, we propose a transportation method to do such sampling. That is, with the information that it's difficult to sample from the distribution $\nu(dx)$, we want to find a transport map $$T_*:\Omega \rightarrow \Omega$$ such that the following equation holds:
 \begin{equation}{\label{main}}
 	\int_{\Omega} O(T_{*}(x)) \rho_B(x)dx = \int_{\Omega} O(x) \rho_*(x)dx
 \end{equation}
