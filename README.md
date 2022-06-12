@@ -1,7 +1,7 @@
 # RealNVP-application-Normalizing-flow
 Some examples of applying realNVP to problems of interest
 
-## Some brief introdunction and problem formulation
+### Some brief introdunction and problem formulation
 
 One of the major goal in stochastic computing is sampling, i.e. given a density $\nu(dx)$, how to efficiently sample random variables from such a distribution. Suppose that 
 	$$\nu(dx) = \rho(x)dx$$ 
