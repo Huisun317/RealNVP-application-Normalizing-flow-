@@ -39,7 +39,7 @@ $$\begin{align}
 Now for the first part, we have 
 
 $$\begin{align}
-	\int \hat{\rho} \log \hat{\rho} dy = \mathbb{E}_ {\hat{\rho}} \log [ \hat{\rho}(z) ]
+	\int \hat{\rho} \log \hat{\rho} dy = \mathbb{E}_ {\hat{\rho}}  [\log \hat{\rho}(z) ]
 \end{align}$$
 
 where $z \sim \hat{\rho}(x) dx$. 
