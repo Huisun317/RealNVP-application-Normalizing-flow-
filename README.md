@@ -53,7 +53,7 @@ $$\begin{align}
 As a result, we have 
 
 $$\begin{align}
-	\mathbb{E}_ {\hat{\rho}}[\hat{\rho}(z)]&=\mathbb{E}_ {\rho_0}[\log(\rho_B(z_0))- \sum^k_{i=1} \log\det |\nabla_{z_{i-1}}f(z_i) |]
+	\mathbb{E}_ {\hat{\rho}}[\log \hat{\rho}(z)]&=\mathbb{E}_ {\rho_0}[\log(\rho_B(z_0))- \sum^k_{i=1} \log\det |\nabla_{z_{i-1}}f(z_i) |]
 \end{align}$$
 
 The second term in \eqref{kl_difference}
